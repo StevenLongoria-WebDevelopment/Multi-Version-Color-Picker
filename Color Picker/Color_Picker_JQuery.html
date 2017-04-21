@@ -1,0 +1,35 @@
+<html>
+	<head>
+		<meta charset="UTF-8"></meta>
+		<title>Color Picker</title>
+	</head>
+	<body>
+		<style>
+			@import url("css/JQueryColorPicker.css");
+		</style>
+		<h1>JQuery Color Picker</h1>
+		<h2>Use the sliders to change the color of the box.  Change the programming language used by clicking on its logo.</h2>
+		<a href="Color_Picker_JQuery.html"><img id="jquery" src="https://uploads.toptal.io/blog/category/logo/40/jquery.png" alt="jquery version" width="50" height="50"/></a>
+		<a href="Color_Picker.html"><img src="http://www.luvishkatyal.com/javascriptlogo.png" alt="JavaScript version" width="50" height="50"/></a>
+		<div id="colorBox">
+		</div>
+		<div id="colors">
+			<h3 id="color">#808080</h3>
+			<input id="gradient" type="button" value="Gradient" onclick="gradientMode()"/><input id="solid" type="hidden" value="Solid" onclick="solidMode()"/><br><br>
+			
+			<label id="directionLabel">Direction:</label><input id="direction" type="hidden" min="0" max="359" value="0" onmousemove="setGradient()"/><br><br>
+			<label id="redLabel">R:</label><input id="redSlider" type="range" min="0" max="255" value="128" onmousemove="setColor()"/><input id="red" type="button" value="Primary" onclick="primaryRed()"/><br><br>
+			<label id="redLabel1">R1:</label><input id="redSlider1" type="hidden" min="0" max="255" value="128" onmousemove="setGradient()"/><input id="red1" type="hidden" value="Primary" onclick="primaryRed1()"/><br><br>
+			<label id="redLabel2">R2:</label><input id="redSlider2" type="hidden" min="0" max="255" value="128" onmousemove="setGradient()"/><input id="red2" type="hidden" value="Primary" onclick="primaryRed2()"/><br><br>
+			<label id="greenLabel">G:</label><input id="greenSlider" type="range" min="0" max="255" value="128" onmousemove="setColor()"/><input id="green" type="button" value="Primary" onclick="primaryGreen()"/><br><br>
+			<label id="greenLabel1">G1:</label><input id="greenSlider1" type="hidden" min="0" max="255" value="128" onmousemove="setGradient()"/><input id="green1" type="hidden" value="Primary" onclick="primaryGreen1()"/><br><br>
+			<label id="greenLabel2">G2:</label><input id="greenSlider2" type="hidden" min="0" max="255" value="128" onmousemove="setGradient()"/><input id="green2" type="hidden" value="Primary" onclick="primaryGreen2()"/><br><br>
+			<label id="blueLabel">B:</label><input id="blueSlider" type="range" min="0" max="255" value="128" onmousemove="setColor()"/><input id="blue" type="button" value="Primary" onclick="primaryBlue()"/><br><br>
+			<label id="blueLabel1">B1:</label><input id="blueSlider1" type="hidden" min="0" max="255" value="128" onmousemove="setGradient()"/><input id="blue1" type="hidden" value="Primary" onclick="primaryBlue1()"/><br><br>
+			<label id="blueLabel2">B2:</label><input id="blueSlider2" type="hidden" min="0" max="255" value="128" onmousemove="setGradient()"/><input id="blue2" type="hidden" value="Primary" onclick="primaryBlue2()"/><br><br>
+			
+		</div>
+		<script type="text/javascript" src="js/colorPickerJQuery.js" async="async"></script>
+		<script type="text/javascript" src="js/jquery-3.1.1.min.js" async="async"></script>
+	</body>
+</html>

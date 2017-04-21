@@ -1,0 +1,72 @@
+body{
+	/*background: linear-gradient(180deg, #555555, #000000);*/
+	background: #000000;
+}
+
+h1, h2, h3{
+	text-align: center;
+	color: white;
+}
+
+#jquery{
+	padding-left: 38.5%;
+}
+
+img{
+	padding-left: 10%;
+	max-width: 50px;
+	max-height: 50px;
+	position: relative;
+}
+
+#colorBox{
+	margin-left: 37.5%;
+	width: 200px;
+	height: 200px;
+	background: #808080;
+}
+
+#solid, #gradient{
+	margin-left: 48%;
+	margin-right: 5%;
+	background-color: #ffffff;
+	border: 1px solid #ffffff;
+	padding: 5px;
+	font-weight: bold;
+	color: black;
+}
+
+#directionLabel, #redLabel1, #greenLabel1, #blueLabel1, #redLabel2, #greenLabel2, #blueLabel2{
+	visibility: hidden;
+}
+
+label{
+	margin-left: 31%;
+	padding-right: 5%;
+	font-weight: bold;
+	color: white;
+}
+
+#red, #red1, #red2, #green, #green1, #green2, #blue, #blue1, #blue2{
+	margin-left: 2.5%;
+}
+
+#red, #red1, #red2{
+	background-color: #ff0000;
+	border: 1px solid #ff0000;
+	color: white;
+	
+}
+
+#green, #green1, #green2{
+	background-color: #00ff00;
+	border: 1px solid #00ff00;
+	color: white;
+	
+}
+
+#blue, #blue1, #blue2{
+	background-color: #0000ff;
+	border: 1px solid #0000ff;
+	color: white;
+}
