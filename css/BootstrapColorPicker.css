@@ -1,0 +1,71 @@
+h1, h2, h3{
+	text-align: center;
+}
+
+#title{
+	font-weight: bold;
+}
+
+#jquery{
+	padding-left: 38.5%;
+}
+
+.range{
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+img{
+	padding-left: 4%;
+}
+
+#colorBox{
+	margin-left: 37.5%;
+	width: 200px;
+	height: 200px;
+	background: #808080;
+}
+
+#solid, #gradient{
+	margin-left: 48%;
+	margin-right: 5%;
+	background-color: #000000;
+	border: 1px solid #000000;
+	padding: 5px;
+	font-weight: bold;
+	color: white;
+}
+
+#directionLabel, #redLabel1, #greenLabel1, #blueLabel1, #redLabel2, #greenLabel2, #blueLabel2{
+	visibility: hidden;
+}
+
+label{
+	margin-left: 31%;
+	padding-right: 5%;
+	font-weight: bold;
+}
+
+#red, #red1, #red2, #green, #green1, #green2, #blue, #blue1, #blue2{
+	margin-left: 2.5%;
+}
+
+#red, #red1, #red2{
+	background-color: #ff0000;
+	border: 1px solid #ff0000;
+	color: white;
+	
+}
+
+#green, #green1, #green2{
+	background-color: #00ff00;
+	border: 1px solid #00ff00;
+	color: white;
+	
+}
+
+#blue, #blue1, #blue2{
+	background-color: #0000ff;
+	border: 1px solid #0000ff;
+	color: white;
+}
