@@ -1,0 +1,161 @@
+body{
+	min-width: 613px; 
+}
+
+h1, h2, h3{
+	text-align: center;
+}
+
+#title{
+	font-weight: bold;
+}
+
+img{
+	margin-left: 40%;
+}
+
+.range{
+	display: inline-block;
+}
+
+img{
+	padding-left: 4%;
+}
+
+#colorBox{
+	border-radius: 100px;
+	margin-left: 40%;
+	margin-top: 10%;
+	width: 200px;
+	height: 200px;
+	background: #808080;
+}
+
+#solid, #gradient{
+	border-radius: 25px;
+	margin-left: 48%;
+	margin-right: 5%;
+	background-color: #000000;
+	border: 1px solid #000000;
+	padding: 5px;
+	font-weight: bold;
+	color: white;
+}
+
+#directionLabel, #redLabel1, #greenLabel1, #blueLabel1, #redLabel2, #greenLabel2, #blueLabel2{
+	visibility: hidden;
+}
+
+#directionLabel{
+	position: relative;
+	top: 5px;
+	margin-left: 79%;
+}
+
+#redLabel1{
+	position: relative;
+	top: 7px;
+}
+
+#redLabel2{
+	position: relative;
+	top: 16px;
+}
+
+#greenLabel2{
+	position: relative;
+	top: 10px;
+}
+
+#blueLabel1{
+	position: relative;
+	top: -10px;
+}
+
+#blueLabel2{
+	position: relative;
+}
+
+#redLabel{
+	position: relative;
+	top: -26px;
+}
+
+#greenLabel{
+	position: relative;
+	top: -35px;
+}
+
+#blueLabel{
+	position: relative;
+	top: -63px;
+}
+
+label{
+	margin-left: 89%;
+	padding-right: 5%;
+	font-weight: bold;
+}
+
+#red, #red1, #red2, #green, #green1, #green2, #blue, #blue1, #blue2{
+	margin-left: 2.5%;
+}
+
+#red1{
+	position: relative;
+	top: 15px;
+}
+
+#red2{
+	position: relative;
+	top: 20px;
+}
+
+#green1{
+	position: relative;
+	top: 28px;
+}
+
+#green2{
+	position: relative;
+	top: 35px;
+}
+
+#blue{
+	position: relative;
+	top: 10px;
+}
+
+#blue1{
+	position: relative;
+	top: 40px;
+}
+
+#blue2{
+	position: relative;
+	top: 48px;
+}
+
+.range{
+	margin-left: -10%;
+}
+
+#red, #red1, #red2{
+	background-color: #ff0000;
+	border: 1px solid #ff0000;
+	color: white;
+	
+}
+
+#green, #green1, #green2{
+	background-color: #00ff00;
+	border: 1px solid #00ff00;
+	color: white;
+	
+}
+
+#blue, #blue1, #blue2{
+	background-color: #0000ff;
+	border: 1px solid #0000ff;
+	color: white;
+}
